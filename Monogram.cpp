@@ -32,7 +32,7 @@ int main()
             std::cout << "\nThanks for using the Monogram Program!\nProgram will now close...";
             return 0;
         }
-        else if (initialsinput.size() <= 5) {
+        else if (initialsinput.size() >= 5 || initialsinput.size() <= 6) {
             cac1 = initialsinput.at(0);
             cac2 = initialsinput.at(2);
             cac3 = initialsinput.at(4);
